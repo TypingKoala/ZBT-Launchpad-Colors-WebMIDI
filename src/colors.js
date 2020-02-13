@@ -7,8 +7,9 @@ function init() {
     if (!output || !input) {
         // check if either input or output connection failed
         statusText.innerHTML = "Connection failed."
+        messageText.innerHTML = "Please connect the Launchpad and ensure you have the correct drivers."
     } else {
-        statusText.innerHTML = "Connected."
+        statusText.innerHTML = "Connected to Novation Launchpad MK2."
         initLaunchpadColors(output);
         initLaunchpadBlinking(output);
         input.addListener('noteon', "all", function(e) {
@@ -23,8 +24,6 @@ function init() {
 WebMidi.enable(function (err) {
     if (err) {
         console.log("WebMidi could not be enabled.", err);
-    } else {
-        console.log("WebMidi enabled!");
     }
 
     init(); // run init once
