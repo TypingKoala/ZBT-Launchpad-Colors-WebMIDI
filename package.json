@@ -1,0 +1,19 @@
+{
+  "name": "zbt-launchpad-colors-web",
+  "version": "1.0.0",
+  "description": "ZBT Launchpad Colors WebMIDI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypingKoala/ZBT-Launchpad-Colors-WebMIDI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TypingKoala/ZBT-Launchpad-Colors-WebMIDI/issues"
+  },
+  "homepage": "https://github.com/TypingKoala/ZBT-Launchpad-Colors-WebMIDI#readme"
+}
