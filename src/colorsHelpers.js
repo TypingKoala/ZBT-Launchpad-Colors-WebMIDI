@@ -30,10 +30,10 @@ const mainLayout = [
     ["BLACK", "BLACK", "BLACK", "LBLUE", "BLUE", "PURPLE", "PINK", "CHERRY"],
     ["BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK"],
     ["BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK"],
-    ["BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK"],
-    ["BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK"],
-    ["BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK", "BLACK"],
-    ["BLUE", "LBLUE", "RED", "LBLUE", "BLUE", "ORANGE", "GREEN", "ORANGE"],
+    ["RED", "RED", "RED", "RED", "ORANGE", "ORANGE", "ORANGE", "ORANGE"],
+    ["YELLOW", "YELLOW", "YELLOW", "YELLOW", "GREEN", "GREEN", "GREEN", "GREEN"],
+    ["BLUE", "BLUE", "BLUE", "BLUE", "PURPLE", "PURPLE", "PURPLE", "PURPLE"],
+    ["PINK", "PINK", "PINK", "PINK", "CHERRY", "CHERRY", "CHERRY", "CHERRY"],
 ]
 
 // set the blinking period (in ms), 0 means no blinking
